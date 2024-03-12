@@ -19,7 +19,7 @@ const Login = () => {
           </label>
           <label htmlFor="senha">
             Senha
-            <Input name="senha" id="senha" />
+            <Input name="senha" id="senha" type="password" />
           </label>
         </div>
         <Button
