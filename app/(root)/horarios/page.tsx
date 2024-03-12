@@ -4,7 +4,7 @@ const Horarios = () => {
   return (
     <div className="flex flex-col gap-10">
       <div>
-        <h1>Segunda-Feira</h1>
+        <h1 className="text-xl text-red-600">Segunda-Feira</h1>
         <Table
           columns={["Horarios", "Disciplina", "Professor"]}
           rows={[
@@ -17,7 +17,7 @@ const Horarios = () => {
         />
       </div>
       <div>
-        <h1>Terça-Feira</h1>
+        <h1 className="text-xl text-red-600">Terça-Feira</h1>
         <Table
           columns={["Horarios", "Disciplina", "Professor"]}
           rows={[
@@ -30,7 +30,7 @@ const Horarios = () => {
         />
       </div>
       <div>
-        <h1>Quarta-Feira</h1>
+        <h1 className="text-xl text-red-600">Quarta-Feira</h1>
         <Table
           columns={["Horarios", "Disciplina", "Professor"]}
           rows={[
@@ -43,7 +43,7 @@ const Horarios = () => {
         />
       </div>
       <div>
-        <h1>Quinta-Feira</h1>
+        <h1 className="text-xl text-red-600">Quinta-Feira</h1>
         <Table
           columns={["Horarios", "Disciplina", "Professor"]}
           rows={[
@@ -56,7 +56,7 @@ const Horarios = () => {
         />
       </div>
       <div>
-        <h1>Sexta-Feira</h1>
+        <h1 className="text-xl text-red-600">Sexta-Feira</h1>
         <Table
           columns={["Horarios", "Disciplina", "Professor"]}
           rows={[
