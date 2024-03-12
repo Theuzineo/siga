@@ -1,6 +1,75 @@
+import { Table } from "@/components/table";
+
 const Horarios = () => {
+  return (
+    <div className="flex flex-col gap-10">
+      <div>
+        <h1>Segunda-Feira</h1>
+        <Table
+          columns={["Horarios", "Disciplina", "Professor"]}
+          rows={[
+            ["19:00 - 19:50", "Matematica Discreta", "Professor 1"],
+            ["19:50 - 20:40", "Matematica Discreta", "Professor 1"],
+            ["21:00 - 21:50", "Programação Linear", "Professor 2"],
+            ["21:50 - 22:40", "Estatistica", "Professor 3"],
+            ["22:40 - 23:20", "Programação Linear", "Professor 2"],
+          ]}
+        />
+      </div>
+      <div>
+        <h1>Terça-Feira</h1>
+        <Table
+          columns={["Horarios", "Disciplina", "Professor"]}
+          rows={[
+            ["19:00 - 19:50", "Matematica Discreta", "Professor 1"],
+            ["19:50 - 20:40", "Matematica Discreta", "Professor 1"],
+            ["21:00 - 21:50", "Programação Linear", "Professor 2"],
+            ["21:50 - 22:40", "Estatistica", "Professor 3"],
+            ["22:40 - 23:20", "Programação Linear", "Professor 2"],
+          ]}
+        />
+      </div>
+      <div>
+        <h1>Quarta-Feira</h1>
+        <Table
+          columns={["Horarios", "Disciplina", "Professor"]}
+          rows={[
+            ["19:00 - 19:50", "Matematica Discreta", "Professor 1"],
+            ["19:50 - 20:40", "Matematica Discreta", "Professor 1"],
+            ["21:00 - 21:50", "Programação Linear", "Professor 2"],
+            ["21:50 - 22:40", "Estatistica", "Professor 3"],
+            ["22:40 - 23:20", "Programação Linear", "Professor 2"],
+          ]}
+        />
+      </div>
+      <div>
+        <h1>Quinta-Feira</h1>
+        <Table
+          columns={["Horarios", "Disciplina", "Professor"]}
+          rows={[
+            ["19:00 - 19:50", "Matematica Discreta", "Professor 1"],
+            ["19:50 - 20:40", "Matematica Discreta", "Professor 1"],
+            ["21:00 - 21:50", "Programação Linear", "Professor 2"],
+            ["21:50 - 22:40", "Estatistica", "Professor 3"],
+            ["22:40 - 23:20", "Programação Linear", "Professor 2"],
+          ]}
+        />
+      </div>
+      <div>
+        <h1>Sexta-Feira</h1>
+        <Table
+          columns={["Horarios", "Disciplina", "Professor"]}
+          rows={[
+            ["19:00 - 19:50", "Matematica Discreta", "Professor 1"],
+            ["19:50 - 20:40", "Matematica Discreta", "Professor 1"],
+            ["21:00 - 21:50", "Programação Linear", "Professor 2"],
+            ["21:50 - 22:40", "Estatistica", "Professor 3"],
+            ["22:40 - 23:20", "Programação Linear", "Professor 2"],
+          ]}
+        />
+      </div>
+    </div>
+  );
+};
 
-    return <div>Horarios</div>
-}
-
-export default Horarios
+export default Horarios;

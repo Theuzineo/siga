@@ -1,10 +1,9 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@mui/material";
-import { THEME } from "@/theme";
 
-const inter = Inter({ subsets: ["latin"] });
+import type { Metadata } from "next";
+import { Roboto } from "next/font/google";
+
+const inter = Roboto({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SIGA",
@@ -19,9 +18,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={inter.className}>
-        <ThemeProvider theme={THEME}>
-          <main>{children}</main>
-        </ThemeProvider>
+        <main>{children}</main>
       </body>
     </html>
   );
